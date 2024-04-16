@@ -40,7 +40,7 @@ async function genGraphik() {
   const datestring =
     current.getFullYear().toString() +
     current.getMonth().toString() +
-    current.getDate().toString;
+    current.getDate().toString();
   download(`ampel_${datestring}.png`, url);
 }
 
