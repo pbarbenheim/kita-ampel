@@ -1,0 +1,48 @@
+<svg
+  viewBox="0 0 5 5"
+  width="100%"
+  height="100%"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <rect
+    style="fill: #d6403a"
+    id="red_rect"
+    x="0"
+    y="0"
+    height="1"
+    width="5"
+  />
+  <rect
+    style="fill: #eda601"
+    id="orange_rect"
+    x="0"
+    y="1"
+    height="1"
+    width="5"
+  />
+  <rect
+    style="fill: #ebe700"
+    id="yellow_rect"
+    x="0"
+    y="2"
+    height="1"
+    width="5"
+  />
+  <rect
+    style="fill: #66a05f"
+    id="dark_green_rect"
+    x="0"
+    y="3"
+    height="1"
+    width="5"
+  />
+  <rect
+    style="fill: #a0bf70"
+    id="light_green_rect"
+    x="0"
+    y="4"
+    height="1"
+    width="5"
+  /></svg
+>"
