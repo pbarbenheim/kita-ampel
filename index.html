@@ -1,13 +1,148 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link
+      rel="icon"
+      sizes="any"
+      type="image/svg+xml"
+      href="data:image/svg+xml, <svg viewBox='0 0 5 5' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'> <rect style='fill:%23d6403a' id='red_rect' x='0' y='0' height='1' width='5' /> <rect style='fill:%23eda601' id='orange_rect' x='0' y='1' height='1' width='5' /> <rect style='fill:%23ebe700' id='yellow_rect' x='0' y='2' height='1' width='5' /> <rect style='fill:%2366a05f' id='dark_green_rect' x='0' y='3' height='1' width='5' /> <rect style='fill:%23a0bf70' id='light_green_rect' x='0' y='4' height='1' width='5' /></svg>"
+    />
+    <title>Kita-Ampel</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="p-10 font-sans">
+        <h1 class="text-4xl">Kita-Personal-Ampel</h1>
+
+        <div class="px-10">
+          <div id="wochentag_1">
+            <h4 class="pb-4 pt-8 text-xl">Wochentag 1</h4>
+            <label for="mangel_1">Fehlendes Personal:</label>
+            <input
+              type="number"
+              name=""
+              id="mangel_1"
+              min="0"
+              value="0"
+              class="slate-300 ml-1 w-20 rounded border border-slate-300 px-1"
+            />
+            <br />
+            <label for="stufe_1">Ampelstufe</label>
+            <select name="Mangelstufen" id="stufe_1">
+              <option value="rot">Rot</option>
+              <option value="orange">Orange</option>
+              <option value="gelb">Gelb</option>
+              <option value="dgruen">Dunkelgrün</option>
+              <option value="gruen">Grün</option>
+            </select>
+          </div>
+          <div id="wochentag_2">
+            <h4 class="pb-4 pt-8 text-xl">Wochentag 2</h4>
+            <label for="mangel_2">Fehlendes Personal:</label>
+            <input
+              type="number"
+              name=""
+              id="mangel_2"
+              min="0"
+              value="0"
+              class="ml-1 w-20 rounded border border-slate-300 px-1"
+            />
+            <br />
+            <label for="stufe_2">Ampelstufe</label>
+            <select name="Mangelstufen" id="stufe_2">
+              <option value="rot">Rot</option>
+              <option value="orange">Orange</option>
+              <option value="gelb">Gelb</option>
+              <option value="dgruen">Dunkelgrün</option>
+              <option value="gruen">Grün</option>
+            </select>
+          </div>
+          <div id="wochentag_3">
+            <h4 class="pb-4 pt-8 text-xl">Wochentag 3</h4>
+            <label for="mangel_3">Fehlendes Personal:</label>
+            <input
+              type="number"
+              name=""
+              id="mangel_3"
+              min="0"
+              value="0"
+              class="ml-1 w-20 rounded border border-slate-300 px-1"
+            />
+            <br />
+            <label for="stufe_3">Ampelstufe</label>
+            <select name="Mangelstufen" id="stufe_3">
+              <option value="rot">Rot</option>
+              <option value="orange">Orange</option>
+              <option value="gelb">Gelb</option>
+              <option value="dgruen">Dunkelgrün</option>
+              <option value="gruen">Grün</option>
+            </select>
+          </div>
+          <div id="wochentag_4">
+            <h4 class="pb-4 pt-8 text-xl">Wochentag 4</h4>
+            <label for="mangel_4">Fehlendes Personal:</label>
+            <input
+              type="number"
+              name=""
+              id="mangel_4"
+              min="0"
+              value="0"
+              class="ml-1 w-20 rounded border border-slate-300 px-1"
+            />
+            <br />
+            <label for="stufe_4">Ampelstufe</label>
+            <select name="Mangelstufen" id="stufe_4">
+              <option value="rot">Rot</option>
+              <option value="orange">Orange</option>
+              <option value="gelb">Gelb</option>
+              <option value="dgruen">Dunkelgrün</option>
+              <option value="gruen">Grün</option>
+            </select>
+          </div>
+          <div id="wochentag_5">
+            <h4 class="pb-4 pt-8 text-xl">Wochentag 5</h4>
+            <label for="mangel_5">Fehlendes Personal:</label>
+            <input
+              type="number"
+              name=""
+              id="mangel_5"
+              min="0"
+              value="0"
+              class="ml-1 w-20 rounded border border-slate-300 px-1"
+            />
+            <br />
+            <label for="stufe_5">Ampelstufe</label>
+            <select name="Mangelstufen" id="stufe_5">
+              <option value="rot">Rot</option>
+              <option value="orange">Orange</option>
+              <option value="gelb">Gelb</option>
+              <option value="dgruen">Dunkelgrün</option>
+              <option value="gruen">Grün</option>
+            </select>
+          </div>
+          <button
+            type="button"
+            id="erstellenButton"
+            disabled
+            class="my-10 rounded border-2 border-slate-600 p-2"
+          >
+            Erstelle Graphik
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <object
+      id="svgObject"
+      data="kitaampel.svg"
+      type="image/svg+xml"
+      style="display: none"
+    >
+      SVG-Grafik konnte nicht geladen werden!
+    </object>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
