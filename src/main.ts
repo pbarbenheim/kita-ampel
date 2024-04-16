@@ -35,7 +35,13 @@ async function genGraphik() {
     throw new Error("Illegal state");
   }
   const url = await toPng(svgDoc as Document, 1708, 903);
-  download("ampel.png", url);
+
+  const current = new Date();
+  const datestring =
+    current.getFullYear().toString() +
+    current.getMonth().toString() +
+    current.getDate().toString;
+  download(`ampel_${datestring}.png`, url);
 }
 
 function readTage(): Tag[] {
