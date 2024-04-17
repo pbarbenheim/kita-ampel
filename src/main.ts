@@ -1,4 +1,5 @@
 import "./index.css";
+import kitaampel from "/kitaampel.svg";
 import { Canvg, presets } from "canvg";
 
 type Stufe = "rot" | "orange" | "gelb" | "dgruen" | "gruen";
@@ -16,16 +17,35 @@ document
   .querySelector<HTMLButtonElement>("#erstellenButton")
   ?.addEventListener("click", genGraphik);
 document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector("#version")!.innerHTML = `v${__APP_VERSION__}`;
+
+  let svgAnchor = document.querySelector("#svganchor");
+  svgAnchor!.innerHTML = `
+    <object
+      id="svgObject"
+      data="${kitaampel}"
+      type="image/svg+xml"
+      style="display: none"
+    >
+      SVG-Grafik konnte nicht geladen werden!
+    </object>
+  `;
+
   let svgObject = document.querySelector<HTMLObjectElement>("#svgObject");
+  console.log(svgObject);
+
   if (svgObject == null) {
     throw new Error("Not acceptable");
   }
+  svgObject?.addEventListener("load", () => {
+    svgDoc = svgObject!.contentDocument!;
 
-  svgDoc = svgObject!.contentDocument!;
+    console.log(svgDoc);
 
-  document
-    .querySelector<HTMLButtonElement>("#erstellenButton")
-    ?.removeAttribute("disabled");
+    document
+      .querySelector<HTMLButtonElement>("#erstellenButton")
+      ?.removeAttribute("disabled");
+  });
 });
 
 async function genGraphik() {
@@ -39,8 +59,8 @@ async function genGraphik() {
   const current = new Date();
   const datestring =
     current.getFullYear().toString() +
-    current.getMonth().toString() +
-    current.getDate().toString();
+    (current.getMonth() + 1).toString().padStart(2, "0") +
+    current.getDate().toString().padStart(2, "0");
   download(`ampel_${datestring}.png`, url);
 }
 

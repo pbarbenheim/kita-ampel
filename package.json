@@ -1,7 +1,7 @@
 {
   "name": "kita-ampel",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "BSD-3-Clause",
   "author": "Paul Barbenheim",
   "type": "module",
@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/node": "^20.12.7",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
