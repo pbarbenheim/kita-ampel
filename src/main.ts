@@ -21,17 +21,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let svgAnchor = document.querySelector("#svganchor");
   svgAnchor!.innerHTML = `
-    <object
+    <iframe
       id="svgObject"
-      data="${kitaampel}"
-      type="image/svg+xml"
+      src="${kitaampel}"
       style="display: none"
     >
       SVG-Grafik konnte nicht geladen werden!
-    </object>
+    </iframe>
   `;
 
-  let svgObject = document.querySelector<HTMLObjectElement>("#svgObject");
+  let svgObject = document.querySelector<HTMLIFrameElement>("#svgObject");
   console.log(svgObject);
 
   if (svgObject == null) {
