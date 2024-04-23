@@ -7,7 +7,7 @@
    height="903"
    version="1.1"
    id="kitaampel"
-   sodipodi:docname="kitaampel.svg"
+   sodipodi:docname="kitaampelv2.svg"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -20,7 +20,14 @@
 }
 </style>
   <defs
-     id="defs1" />
+     id="defs1">
+    <rect
+       x="1129.5065"
+       y="294.86552"
+       width="577.95639"
+       height="124.56728"
+       id="rect56" />
+  </defs>
   <sodipodi:namedview
      id="namedview1"
      pagecolor="#505050"
@@ -31,14 +38,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      inkscape:zoom="0.77115397"
-     inkscape:cx="625.03731"
-     inkscape:cy="237.3067"
+     inkscape:cx="1170.9724"
+     inkscape:cy="551.12211"
      inkscape:window-width="1876"
      inkscape:window-height="1006"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="kitaampel" />
+     inkscape:current-layer="sidetext" />
   <g
      id="coloredrects">
     <rect
@@ -121,7 +128,7 @@
        y="220.75488"
        font-size="7px"
        font-family="sans-serif"
-       id="text1">Platz da für Bildung und Qualität</text>
+       id="text1">Keine Maßnahmen erforderlich.</text>
     <text
        x="15"
        y="179.9874"
@@ -136,22 +143,22 @@
        id="text3"><tspan
          id="tspan5"
          x="15"
-         y="136.41739">Jetzt geht nicht mehr alles</tspan><tspan
+         y="136.41739">Jetzt geht nicht mehr alles -</tspan><tspan
          id="tspan6"
          x="15"
-         y="145.16739">Haben Sie Verständnis</tspan></text>
+         y="145.16739">haben Sie Verständnis</tspan></text>
     <text
        x="15"
        y="100.00489"
        font-size="7px"
        font-family="sans-serif"
-       id="text4">Hilfe! Jetzt geht's nur noch Hand in Hand</text>
+       id="text4">Jetzt geht's nur noch Hand in Hand</text>
     <text
        x="15"
        y="68.635002"
        font-size="7px"
        font-family="sans-serif"
-       id="text5">OH NEIN!!!</text>
+       id="text5">Schließung der Kita</text>
   </g>
   <g
      id="sidetext">
@@ -159,42 +166,20 @@
        xml:space="preserve"
        style="font-size:6.66667px;fill:#000000;fill-opacity:1;stroke-width:1.02425"
        x="364.12302"
-       y="55.468666"
+       y="61.161617"
        id="text8"><tspan
          id="tspan8"
          x="364.12302"
-         y="55.468666"
-         style="font-size:6.66667px">Personalnotstand</tspan><tspan
+         y="61.161617"
+         style="font-size:6.66667px">Personalnotstand -</tspan><tspan
          x="364.12302"
-         y="63.802002"
+         y="69.494957"
          id="tspan9"
-         style="font-size:6.66667px">Aufsichtspflicht nicht mehr gewährleistet</tspan><tspan
+         style="font-size:6.66667px">Aufsichtspflicht nicht mehr gewährleistet.</tspan><tspan
          x="364.12302"
-         y="72.135338"
+         y="77.828285"
          id="tspan10"
-         style="font-size:6.66667px">Einschränkung des Betreuungsanbebotes</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:6.66667px;fill:#000000;fill-opacity:1;stroke-width:1.02425"
-       x="364.12302"
-       y="87.400719"
-       id="text8-6"><tspan
-         x="364.12302"
-         y="87.400719"
-         id="tspan10-3"
-         style="font-size:6.66667px">Achtung!</tspan><tspan
-         x="364.12302"
-         y="95.734055"
-         style="font-size:6.66667px"
-         id="tspan12">Fachkraft-Kindrelation stark aus dem Gleichgewicht</tspan><tspan
-         x="364.12302"
-         y="104.06739"
-         style="font-size:6.66667px"
-         id="tspan13">&quot;Wer kann Betreuungszeiten verkürzen?&quot;</tspan><tspan
-         x="364.12302"
-         y="112.40073"
-         style="font-size:6.66667px"
-         id="tspan14">&quot;Wer hat eine alternative Betreuungsmöglichkeit?&quot;</tspan></text>
+         style="font-size:6.66667px" /></text>
     <text
        xml:space="preserve"
        style="font-size:6.66667px;fill:#000000;fill-opacity:1;stroke-width:1.02425"
@@ -257,6 +242,33 @@
          y="229.00073"
          style="font-size:6.66667px"
          id="tspan40">Personalbesetzung komplett, laut Betriebserlaubnis</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.33097949,0,0,0.33097949,-10.060206,-24.019425)"
+       id="text56"
+       style="font-size:20.1422px;text-align:start;white-space:pre;shape-inside:url(#rect56);fill:#000000;stroke-width:1.02425"
+       inkscape:label="text56"
+       x="-249.88408"
+       y="0"><tspan
+         x="1129.5059"
+         y="313.19212"
+         id="tspan3">
+</tspan><tspan
+         x="1129.5059"
+         y="338.36986"
+         id="tspan4">Fachkräfte-Kindrelation stark aus dem Gleichgewicht.
+</tspan><tspan
+         x="1129.5059"
+         y="363.54759"
+         id="tspan12">Folgende Maßnahmen können möglich werden:
+</tspan><tspan
+         x="1129.5059"
+         y="388.72533"
+         id="tspan13">Stopp v. Eingewöhnungen, Schließung von Gruppen,
+</tspan><tspan
+         x="1129.5059"
+         y="413.90306"
+         id="tspan14">Reduzierung d. Öffnungszeiten, Eröffnung v. Notgruppe</tspan></text>
   </g>
   <g
      id="weekt">
