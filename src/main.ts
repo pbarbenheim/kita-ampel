@@ -1,5 +1,5 @@
 import "./index.css";
-import kitaampel from "/kitaampelv2.svg";
+import kitaampel from "/kitaampelv3.svg";
 import { Canvg, presets } from "canvg";
 
 type Stufe = "rot" | "orange" | "gelb" | "dgruen" | "gruen";
