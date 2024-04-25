@@ -1,7 +1,7 @@
 {
   "name": "kita-ampel",
   "private": true,
-  "version": "0.2.2",
+  "version": "1.0.0",
   "license": "BSD-3-Clause",
   "author": "Paul Barbenheim",
   "type": "module",
